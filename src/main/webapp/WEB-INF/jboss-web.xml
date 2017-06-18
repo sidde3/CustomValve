@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss-web>
+  <context-root>/customValve</context-root>
+  <security-domain>other</security-domain>
+  <valve>
+      <class-name>com.sid.customvalve.TestVave</class-name>
+      <param>
+          <param-name>author_name</param-name>
+          <param-value>Siddhartha</param-value>
+      </param>
+  </valve>
+</jboss-web>
