@@ -11,10 +11,10 @@
         <h1>Test your valve</h1>
         <% 
            if(request.getAttribute("name") != null){
-               out.println("not first request");
+               out.println("Valve set attribute for name: "+request.getAttribute("name"));
            }else{
-               out.println("first request");
+               out.println("Not able to fetch attribut set using valve ");
            }
-        %>
+           %>
     </body>
 </html>
